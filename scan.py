@@ -1,6 +1,6 @@
-from pointer.transform import four_point_transform
+from transform import four_point_transform
 import cv2, imutils
-from pointer.imgEnhance import Enhancer
+from imgEnhance import Enhancer
 import numpy as np
 import math
 
