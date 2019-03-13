@@ -115,7 +115,9 @@ def showImage(video = 1):
             else:
                 cv2.imshow("frame", imutils.resize(frame, height = 400))
 
-            cv2.waitKey(30)
+            key = cv2.waitKey(30)
+            if key == ord('q'):
+                break
 
     cv2.destroyAllWindows()
 
